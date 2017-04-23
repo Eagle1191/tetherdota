@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath tetherdota CSWeb.wsgi
+web: gunicorn --pythonpath CSWeb.wsgi
