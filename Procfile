@@ -1,1 +1,1 @@
-"web: gunicorn CSWeb.wsgi --log-file -" 
+"web: gunicorn CSWeb.wsgi:application --log-file -" 
