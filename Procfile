@@ -1,1 +1,1 @@
-"web: gunicorn CSWeb.wsgi:application --log-file -" 
+"web: gunicorn -b 127.0.0.1:8000 CSWeb.wsgi:application" 
